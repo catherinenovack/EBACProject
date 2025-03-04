@@ -1,0 +1,17 @@
+# Text-based Unreal Engine files (should not use LFS)
+*.ini text
+*.config text
+*.json text
+*.csv text
+*.txt text
+*.ufont text
+# C++ Source Code
+*.h text
+*.cpp text
+*.cs text
+*.bat text
+*.sh text
+# Unreal Build Files
+*.uproject text
+*.uplugin text
+. !text !filter !merge !diff
